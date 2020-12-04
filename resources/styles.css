@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 /* Hero */
@@ -47,7 +48,6 @@ h1 {
 
 .contacto {
     display: grid;
-    height: 100px;
     grid-template: 1fr / 1fr 1fr;
     grid-column-gap: 10px;
     margin: 10px 0;
@@ -79,7 +79,7 @@ h1 {
 .arroces {
    
     display: grid;
-    grid-template: 1fr repeat(2, 3fr) / repeat(6, 1fr);
+    grid-template: 100px repeat(2, 1fr) / repeat(6, 1fr);
     justify-items: center;
     align-items: center;
     grid-row-gap: 30px;
@@ -108,6 +108,16 @@ h3 {
     text-align: center;
 }
 
+.arroz-img {
+    text-align: right;
+    width: 50%
+}
+
+.arroz-img img {
+    max-width: 100%;
+    display: block;
+}
+
 @media (max-width: 1800px) {
 
 .hero img {
@@ -120,12 +130,6 @@ h3 {
 
 .arroces {
     grid-template: 1fr repeat(2, 3fr) / repeat(4, 1fr);
-}
-
-.arroz-img {
-    display: flex;
-    justify-content: right;
-    width: 50%;
 }
 
 }
@@ -163,6 +167,7 @@ h3 {
 
 .arroces {
     grid-template: 1fr repeat(2, 3fr) / repeat(1, 1fr);
+    grid-row-gap: 10px;
 }
 
 .contacto {
@@ -175,7 +180,7 @@ h1 {
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 }
