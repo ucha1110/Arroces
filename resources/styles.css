@@ -115,7 +115,7 @@ h3 {
 .arroz-img img {
     max-width: 100%;
     display: block;
-    margin-left: auto;
+    float: right;
 }
 
 @media (max-width: 1800px) {
