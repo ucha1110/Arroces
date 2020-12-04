@@ -79,7 +79,7 @@ h1 {
 .arroces {
    
     display: grid;
-    grid-template: 100px repeat(2, 1fr) / repeat(6, 1fr);
+    grid-template: 1fr repeat(2, 3fr) / repeat(6, 1fr);
     justify-items: center;
     align-items: center;
     grid-row-gap: 30px;
@@ -109,13 +109,13 @@ h3 {
 }
 
 .arroz-img {
-    text-align: right;
     width: 50%
 }
 
 .arroz-img img {
     max-width: 100%;
     display: block;
+    margin-left: auto;
 }
 
 @media (max-width: 1800px) {
