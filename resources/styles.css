@@ -21,7 +21,7 @@ body {
 }
 
 .title {
-    grid-area: 7 / 2 / span 3 / span 4;
+    grid-area: 7 / 1 / span 3 / -1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,7 +125,7 @@ h3 {
 }
 
 .title {
-    grid-area: 5 / 2 / span 3 / span 4;
+    grid-area: 5 / 1 / span 3 / -1;
 }
 
 .arroces {
@@ -149,16 +149,20 @@ h3 {
     height: auto;
 }
 
-h1 {
-    font-size: 25px;
-}
-
 p{
     font-size: 12px;
 }
 
 h3 {
     font-size: 15px;
+}
+
+}
+
+@media (max-width: 850px) {
+
+h1 {
+    font-size: 23px;
 }
 
 }
@@ -175,8 +179,8 @@ h3 {
     grid-row-gap: 10px;
 }
 
-h1 {
-    font-size: 15px;
+h2 {
+    margin-right: auto;
 }
 
 }
